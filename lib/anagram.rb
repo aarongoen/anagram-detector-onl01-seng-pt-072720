@@ -13,8 +13,8 @@ class Anagram
     
     abc_word = @word.split.sort 
     mini_sorted_arrays.each do |mini| 
-        if abc_word == anag
-        @@matches << anag 
+        if abc_word == mini
+        @@matches << mini 
         end
       end 
     end 
