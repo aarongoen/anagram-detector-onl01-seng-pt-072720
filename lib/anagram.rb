@@ -8,15 +8,15 @@ def Anagram
     @word = word 
   end 
   
-  def match[poss_anag]
+  def match(poss_anag)
     mini_sorted_arrays = poss_anag.each {|anag| anag.split.sort}
     
-    ABC_word = @word.split.sort 
-    mini_sorted_arrays.each {|mini| 
-        if ABC_word == anag
+    abc_word = @word.split.sort 
+    mini_sorted_arrays.each do |mini| 
+        if abc_word == anag
         @@matches << anag 
         end
-      end
+      end 
     end 
   
 end 
