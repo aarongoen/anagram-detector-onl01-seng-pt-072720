@@ -10,7 +10,8 @@ class Anagram
   
   def match(array_of_poss)
     mini_sorted_arrays = array_of_poss.each do |poss_anag|
-      poss_anag.split.sort == @word.split.sort 
+      if poss_anag.split.sort == @word.split.sort 
+      @@matches << @word 
         end
       end 
     end 
