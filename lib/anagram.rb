@@ -5,7 +5,6 @@ def Anagram
   @@matches = []
   
   def initialize(word)
-    @word = word 
   end 
   
   # def match(poss_anag)
