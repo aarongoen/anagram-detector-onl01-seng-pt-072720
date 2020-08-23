@@ -10,10 +10,10 @@ class Anagram
     array.detect do |element|
       (element.split.sort) == (@word.split.sort)
        element
-      end
+     end
     end 
   end 
-end 
+ 
 
 #1. get each word and split it into an Array
 #2. sort the letters of each array 
