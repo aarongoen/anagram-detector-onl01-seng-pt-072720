@@ -8,14 +8,14 @@ class Anagram
     @word = word 
   end 
   
-#   def match(array)
+  def match(array)
 #     array.map do |element|
 #       if (element.split.sort) == (@word.split.sort)
 #         @@matches << element 
 #       end
 #     end 
 #     @@matches 
-#   end 
+  end 
   
 end 
 
