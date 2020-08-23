@@ -17,7 +17,7 @@ class Anagram
 #     @@matches 
 #   end 
   
-# end 
+end 
 
 #1. get each word and split it into an Array
 #2. sort the letters of each array 
