@@ -1,8 +1,8 @@
 # Your code goes here!
 def Anagram
-  attr_accessor :word 
+  # attr_accessor :word 
   
-  @@matches = []
+  # @@matches = []
   
   def initialize(word)
   end 
