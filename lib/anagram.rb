@@ -9,8 +9,8 @@ class Anagram
   end 
   
   def match(array)
-    array.map do |poss_anag|
-      if poss_anag.split.sort == @word.split.sort 
+    array.map do |element|
+      if (element.split.sort) == (@word.split.sort)
         @@matches << poss_anag 
       end
     end 
