@@ -8,8 +8,8 @@ class Anagram
     @word = word 
   end 
   
-  def match(array_of_poss)
-    mini_sorted_arrays = array_of_poss.each do |poss_anag|
+  def match(array)
+    array.map do |poss_anag|
       if poss_anag.split.sort == @word.split.sort 
         @@matches << @word 
       end
