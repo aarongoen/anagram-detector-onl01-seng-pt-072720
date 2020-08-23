@@ -10,8 +10,7 @@ class Anagram
     array.map do |element|
       if (@word.split.sort) == (element.split.sort)
         element 
-      end 
-    array 
+      end
     end 
   end 
 end 
