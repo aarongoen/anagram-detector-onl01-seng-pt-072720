@@ -10,10 +10,9 @@ class Anagram
     array.map do |element|
       if (element.split.sort) == (@word.split.sort)
         element 
+      end 
     end 
-    array  
   end 
-end 
 end 
 
 #1. get each word and split it into an Array
