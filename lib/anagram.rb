@@ -11,8 +11,8 @@ class Anagram
   def match(array)
 #     array.map do |element|
       if (element.split.sort) == (@word.split.sort)
-#         @@matches << element 
-#       end
+        @@matches << element 
+      end
 #     end 
     @@matches 
   end 
