@@ -14,7 +14,7 @@ class Anagram
 #         @@matches << element 
 #       end
 #     end 
-#     @@matches 
+    @@matches 
   end 
   
 end 
