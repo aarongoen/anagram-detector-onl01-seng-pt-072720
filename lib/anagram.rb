@@ -1,23 +1,23 @@
 # Your code goes here!
 def Anagram
-attr_accessor :word 
-
-@@matches = []
-
-def initialize(word)
-  @word = word 
-end 
-
-def match[poss_anag]
-  mini_sorted_arrays = poss_anag.each {|anag| anag.split.sort}
+  attr_accessor :word 
   
-  ABC_word = @word.split.sort 
-  mini_sorted_arrays.each {|mini| 
-      if ABC_word == anag
-      @@matches << anag 
-    end
-  end
-end 
+  @@matches = []
+  
+  def initialize(word)
+    @word = word 
+  end 
+  
+  def match[poss_anag]
+    mini_sorted_arrays = poss_anag.each {|anag| anag.split.sort}
+    
+    ABC_word = @word.split.sort 
+    mini_sorted_arrays.each {|mini| 
+        if ABC_word == anag
+        @@matches << anag 
+        end
+      end
+    end 
   
 end 
 
