@@ -9,12 +9,8 @@ class Anagram
   end 
   
   def match(array_of_poss)
-    mini_sorted_arrays = array_of_poss.each {|anag| anag.split.sort}
-    
-    abc_word = @word.split.sort 
-    mini_sorted_arrays.each do |mini| 
-        if abc_word == mini
-        @@matches << mini 
+    mini_sorted_arrays = array_of_poss.each do |poss_anag|
+      poss_anag.split.sort == @word.split.sort 
         end
       end 
     end 
