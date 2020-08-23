@@ -9,8 +9,10 @@ def initialize(word)
 end 
 
 def match[poss_anag]
-  poss_anag.each {|anag| anag == @word()
-  return all matches in that array 
+  mini_sorted_arrays = poss_anag.each {|anag| anag.split.sort}
+  
+ABC_word = @word.split.sort 
+ABC_word mini_sorted_arrays ? @@matches << anag 
 end 
   
 end 
