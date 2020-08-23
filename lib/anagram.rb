@@ -11,7 +11,7 @@ class Anagram
   def match(array)
     array.map do |element|
       if (element.split.sort) == (@word.split.sort)
-        @@matches << poss_anag 
+        @@matches << element 
       end
     end 
     @@matches 
