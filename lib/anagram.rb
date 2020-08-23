@@ -11,8 +11,12 @@ end
 def match[poss_anag]
   mini_sorted_arrays = poss_anag.each {|anag| anag.split.sort}
   
-ABC_word = @word.split.sort 
-ABC_word mini_sorted_arrays ? @@matches << anag 
+  ABC_word = @word.split.sort 
+  mini_sorted_arrays.each {|mini| 
+      if ABC_word == anag
+      @@matches << anag 
+    end
+  end
 end 
   
 end 
