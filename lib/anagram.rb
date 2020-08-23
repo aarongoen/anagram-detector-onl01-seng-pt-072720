@@ -9,7 +9,7 @@ class Anagram
   end 
   
   def match(array_of_poss)
-    mini_sorted_arrays = poss_anag.each {|anag| anag.split.sort}
+    mini_sorted_arrays = array_of_poss.each {|anag| anag.split.sort}
     
     abc_word = @word.split.sort 
     mini_sorted_arrays.each do |mini| 
